@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.API", "VariacaoAtivo.API\VariacaoAtivo.API.csproj", "{85DB462B-FB2E-429C-AFA8-7D8F388142CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.API", "src\VariacaoAtivo.API\VariacaoAtivo.API.csproj", "{85DB462B-FB2E-429C-AFA8-7D8F388142CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Application", "VariacaoAtivo.Application\VariacaoAtivo.Application.csproj", "{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Application", "src\VariacaoAtivo.Application\VariacaoAtivo.Application.csproj", "{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Domain", "VariacaoAtivo.Domain\VariacaoAtivo.Domain.csproj", "{A3CA5AED-9924-4987-907A-582A4714FBDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Domain", "src\VariacaoAtivo.Domain\VariacaoAtivo.Domain.csproj", "{A3CA5AED-9924-4987-907A-582A4714FBDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.Data.MongoDb", "VariacaoAtivo.Infra.Data.MongoDb\VariacaoAtivo.Infra.Data.MongoDb.csproj", "{7D9B606A-D5F9-4F45-89BF-C5596CD18165}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.Data.MongoDb", "src\VariacaoAtivo.Infra.Data.MongoDb\VariacaoAtivo.Infra.Data.MongoDb.csproj", "{7D9B606A-D5F9-4F45-89BF-C5596CD18165}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.Data.YahooFinance", "VariacaoAtivo.Infra.Data.YahooFinance\VariacaoAtivo.Infra.Data.YahooFinance.csproj", "{9EC3A783-44E6-4AD9-B961-15A8D447F038}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.Data.YahooFinance", "src\VariacaoAtivo.Infra.Data.YahooFinance\VariacaoAtivo.Infra.Data.YahooFinance.csproj", "{9EC3A783-44E6-4AD9-B961-15A8D447F038}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - EntryPoints", "1 - EntryPoints", "{FDD1FF21-4C06-48F3-85EE-CDBF682017BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{538D7924-B368-42D5-A0C9-5EF6BE569869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.MassTransit", "VariacaoAtivo.Infra.MassTransit\VariacaoAtivo.Infra.MassTransit.csproj", "{67037D88-1F7C-435A-B9B1-449C06091F6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.MassTransit", "src\VariacaoAtivo.Infra.MassTransit\VariacaoAtivo.Infra.MassTransit.csproj", "{67037D88-1F7C-435A-B9B1-449C06091F6A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{65C0AAC4-2F21-4286-AA1E-58157FFBEF34}"
 EndProject
