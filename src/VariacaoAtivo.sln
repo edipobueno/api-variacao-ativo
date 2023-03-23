@@ -1,8 +1,62 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.API", "VariacaoAtivo.API\VariacaoAtivo.API.csproj", "{85DB462B-FB2E-429C-AFA8-7D8F388142CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Application", "VariacaoAtivo.Application\VariacaoAtivo.Application.csproj", "{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Domain", "VariacaoAtivo.Domain\VariacaoAtivo.Domain.csproj", "{A3CA5AED-9924-4987-907A-582A4714FBDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.Data.MongoDb", "VariacaoAtivo.Infra.Data.MongoDb\VariacaoAtivo.Infra.Data.MongoDb.csproj", "{7D9B606A-D5F9-4F45-89BF-C5596CD18165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.Data.YahooFinance", "VariacaoAtivo.Infra.Data.YahooFinance\VariacaoAtivo.Infra.Data.YahooFinance.csproj", "{9EC3A783-44E6-4AD9-B961-15A8D447F038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - EntryPoints", "1 - EntryPoints", "{FDD1FF21-4C06-48F3-85EE-CDBF682017BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{538D7924-B368-42D5-A0C9-5EF6BE569869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariacaoAtivo.Infra.MassTransit", "VariacaoAtivo.Infra.MassTransit\VariacaoAtivo.Infra.MassTransit.csproj", "{67037D88-1F7C-435A-B9B1-449C06091F6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{65C0AAC4-2F21-4286-AA1E-58157FFBEF34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{42954EC3-BD48-4620-8757-7092575EAE67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85DB462B-FB2E-429C-AFA8-7D8F388142CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DB462B-FB2E-429C-AFA8-7D8F388142CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DB462B-FB2E-429C-AFA8-7D8F388142CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DB462B-FB2E-429C-AFA8-7D8F388142CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CA5AED-9924-4987-907A-582A4714FBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CA5AED-9924-4987-907A-582A4714FBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CA5AED-9924-4987-907A-582A4714FBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CA5AED-9924-4987-907A-582A4714FBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9B606A-D5F9-4F45-89BF-C5596CD18165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9B606A-D5F9-4F45-89BF-C5596CD18165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9B606A-D5F9-4F45-89BF-C5596CD18165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9B606A-D5F9-4F45-89BF-C5596CD18165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC3A783-44E6-4AD9-B961-15A8D447F038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC3A783-44E6-4AD9-B961-15A8D447F038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC3A783-44E6-4AD9-B961-15A8D447F038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC3A783-44E6-4AD9-B961-15A8D447F038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67037D88-1F7C-435A-B9B1-449C06091F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67037D88-1F7C-435A-B9B1-449C06091F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67037D88-1F7C-435A-B9B1-449C06091F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67037D88-1F7C-435A-B9B1-449C06091F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85DB462B-FB2E-429C-AFA8-7D8F388142CC} = {FDD1FF21-4C06-48F3-85EE-CDBF682017BA}
+		{4FD16D6A-C1E2-4B8D-B7EB-F8982F0C43E6} = {538D7924-B368-42D5-A0C9-5EF6BE569869}
+		{7D9B606A-D5F9-4F45-89BF-C5596CD18165} = {42954EC3-BD48-4620-8757-7092575EAE67}
+		{9EC3A783-44E6-4AD9-B961-15A8D447F038} = {42954EC3-BD48-4620-8757-7092575EAE67}
+		{67037D88-1F7C-435A-B9B1-449C06091F6A} = {42954EC3-BD48-4620-8757-7092575EAE67}
+		{A3CA5AED-9924-4987-907A-582A4714FBDB} = {65C0AAC4-2F21-4286-AA1E-58157FFBEF34}
 	EndGlobalSection
 EndGlobal
